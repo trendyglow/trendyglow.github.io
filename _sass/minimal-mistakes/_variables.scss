@@ -14,13 +14,17 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Gowun Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$myfont_title: "GowunBatang-Regular" !default;
+
+
+
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: "Cafe24SsurroundAir", Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -155,9 +159,13 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+   $right-sidebar-width-narrow: 200px !default;
+   $right-sidebar-width: 200px !default;
+   $right-sidebar-width-wide: 250px !default;
+
+// $right-sidebar-width-narrow: 200px !default;
+// $right-sidebar-width: 300px !default;
+// $right-sidebar-width-wide: 400px !default;
 
 /*
    Other
