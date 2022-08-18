@@ -2,6 +2,7 @@
    MASTHEAD
    ========================================================================== */
 
+   //상단 블로그이름, 홈|카테고리|서치 바
 .masthead {
   position: relative;
   border-bottom: 1px solid $border-color;
@@ -23,7 +24,9 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    //home, category, search font
     font-family: $sans-serif-narrow;
+    font-size: $type-size-4;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -43,12 +46,14 @@
   max-height: 2rem;
 }
 
+//블로그 타이틀 디자인
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
-  align-self: center;
+  font-family: $myfont_title;
+  font-size: $type-size-4;
   font-weight: bold;
   // z-index: 20;
 }

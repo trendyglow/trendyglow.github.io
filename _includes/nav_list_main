@@ -116,6 +116,16 @@
         <li> <!--전체 글 수-->
         📝 <span class="list_all">전체 글 수 {{sum}} 개</span> 
         </li>
-
+                <br>
+        <li>
+            <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsun0te.github.io&count_bg=%231C99A4&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
+                <style>
+                    .hits {
+                        width:  auto;   height: auto;
+                        max-width: 99px;
+                        max-height: 20px;
+                    }
+                </style>
+        </li>
   </ul>
 </nav>
