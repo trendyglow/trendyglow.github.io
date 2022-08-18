@@ -90,14 +90,12 @@
       top: 2em;
       float: right;
 
-      /*
       .toc {
         .toc__menu {
           overflow-y: auto;
           max-height: calc(100vh - 7em);
         }
       }
-      */
     }
   }
 
@@ -105,14 +103,6 @@
     width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
   }
-}
-
-//추가
-.sidebar__top {
-  position: fixed;
-  bottom: 1.5em;
-  right: 2em;
-  z-index: 10;
 }
 
 .splash .sidebar__right {
@@ -182,35 +172,25 @@
     margin-bottom: 10px;
   }
 }
-//프로필 name font
 .sidebar .author__name {
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-4;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
-  font-family: $cursive;
-  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  p {
-    font-family: $cursive;
-    margin-top: 1.6px;
-    margin-bottom: 3px;
-  }
-
-
 }
 
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $myfont_diary;
+  font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
 
@@ -370,3 +350,4 @@
     margin-right: initial;
   }
 }
+

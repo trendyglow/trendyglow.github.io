@@ -437,38 +437,12 @@
   }
 }
 
-//전체 글 수 폰트
-.list_all {
-  font-size: $type-size-6;
-  font-family: $myfont;
-
-}
-
-
-//홈 왼쪽 카테고리 목록 
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
-  font-family: $sans-serif;
- //font-weight: bold;
-
-
-  img { // 방문자수 이미지 크기 조절 
-    width: auto; height: auto;
-    max-width: 140px;
-    max-height: 38px;
-    margin-bottom: 1em;
-  }
 
   a {
     color: inherit;
-    font-size: $type-size-4;
-    font-family: $sans-serif-narrow;
-    color: mix(#fff,$primary-color,80%);
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   .active {
@@ -505,7 +479,7 @@
     transform: translate(0, 0);
   }
 }
-//포스트 안 목차 묶음 제목
+
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
@@ -513,15 +487,14 @@
   font-size: $type-size-5;
   font-weight: bold;
 }
-//왼쪽 카테고리 큰 목차 
+
 .nav__sub-title {
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
   font-weight: bold;
-  font-size: $type-size-5;
-  color: mix(rgb(207, 136, 66),$primary-color,35%);
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
@@ -529,21 +502,20 @@
 /*
      Table of contents navigation
      ========================================================================== */
-//포스팅글 안의 목차 나열바
+
 .toc {
-  font-family: $myfont_toc;
+  font-family: $sans-serif-narrow;
   color: $gray;
   background-color: $background-color;
-  font-size: $type-size-5;
-  //border: 1px solid $border-color;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: rgb(0, 0, 0);
-    font-size: $type-size-5;
-    background: mix(rgb(0, 0, 0),$primary-color,40%); //$primary-color;
+    color: #fff;
+    font-size: $type-size-6;
+    background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -559,18 +531,17 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-family: $myfont_toc;
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-6;
+    font-size: $type-size-7;
   }
 
   a {
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
-    //font-weight: bold;
+    font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 

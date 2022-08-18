@@ -1,6 +1,5 @@
 ---
 layout: default
-classes: wide <!--추가-->
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -9,7 +8,11 @@ classes: wide <!--추가-->
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
+{% assign breadcrumbs_enabled = site.breadcrumbs %}
+{% if page.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = page.breadcrumbs %}
+{% endif %}
+{% if page.url != "/" and breadcrumbs_enabled %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}

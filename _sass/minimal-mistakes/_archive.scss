@@ -30,15 +30,12 @@
     position: static;
   }
 }
-//홈 화면 "최근 포스트" font 
+
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  /*font-size: $type-size-5;*/
-  font-size: $type-size-4;
-  color: mix(rgb(207, 136, 66),$primary-color,35%);
-  font-family: $myfont_ga;
-  //color: $muted-text-color;
+  font-size: $type-size-5;
+  color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -46,14 +43,12 @@
   }
 }
 
-//홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: $type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
@@ -108,7 +103,7 @@
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
   background: #000;
   text-align: right;
   z-index: 5;
