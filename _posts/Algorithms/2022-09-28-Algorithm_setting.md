@@ -33,7 +33,7 @@ Chrome 개발자 도구 소스 아래에 있는 탭에 있으며 어떠한 설�
 - [Window 버전] `Ctrl` + `Shift` + `I` 버튼 클릭
 - [Mac 버전] `cmd` + `opt` + `I`
 
-> `DevTool` → `Source` → `Snippets`
+> `DevTool` → `Source` → `Snippets`   
 새로운 스니펫 생성(test) → 소스 코드 작성 → 실행 (`ctrl` + `Enter`)
 ![image](https://user-images.githubusercontent.com/50590124/192803806-c8887d3e-e34f-43fc-b8c6-7327ef5525a0.png)
 
