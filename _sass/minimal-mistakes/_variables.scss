@@ -153,15 +153,17 @@ $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
-$max-width:90%;
+
+// 전체 페이지 최종 사이드 여백
+$max-width:95%;
 //$max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
 
-   $right-sidebar-width-narrow: 150px !default; 
-   $right-sidebar-width: 220px !default;  
+   $right-sidebar-width-narrow: 170px !default; 
+   $right-sidebar-width: 240px !default;  
    $right-sidebar-width-wide: 300px !default;
 
 // $right-sidebar-width-narrow: 200px !default;
