@@ -35,8 +35,9 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
+  font-family: $myfont_title;
   /*font-size: $type-size-5;*/
-  font-size: $type-size-4;
+  font-size: $type-size-3;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
   //color: $muted-text-color;
   border-bottom: 1px solid $border-color;
@@ -49,7 +50,7 @@
 //홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $myfont_title; //$sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -189,7 +189,7 @@
 }
 //프로필 name font
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $myfont_main_title;
   font-size: $type-size-4;
 }
 
@@ -215,7 +215,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: $myfont_main_title;
   z-index: 20;
   cursor: pointer;
 

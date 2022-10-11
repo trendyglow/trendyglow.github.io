@@ -14,12 +14,15 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "Gowun Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Chosunilbo_myungjo", "Gowun Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
 $myfont_title: "GowunBatang-Regular" !default;
+$myfont_main_title: "PFStardust" !default; //set main.scss
+$myfont_pixcel: "MiraeroNormal" !default;  //set main.scss
 $myfont: "Cafe24SsurroundAir" !default; //set main.scss
-$myfont_go: "GothicA1-Light" !default;
+$myfont_a1: "GothicA1-Light" !default; //set main.scss
+$myfont_go: "Gowun Batang" !default;
 $cursive: "Cafe24Shiningstar" !default;
 
 /* sans serif typefaces */
