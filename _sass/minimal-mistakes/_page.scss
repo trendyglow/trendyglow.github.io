@@ -117,7 +117,9 @@ body {
 		}
 	}
 
-  p,
+  p {
+    line-height: 2; //포스트 글의 줄 간격 추가
+  } 
   li,
   dl {
     font-size: 1em;
