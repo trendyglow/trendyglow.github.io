@@ -570,6 +570,11 @@ body {
   text-transform: uppercase;
 }
 
+//댓글창 최대 너비로 조정
+.utterances {
+  max-width: 100% !important;
+}
+
 /*
    Wide Pages
    ========================================================================== */
