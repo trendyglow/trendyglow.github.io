@@ -14,16 +14,18 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "GothicA1-Light", "Gowun Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Chosunilbo_myungjo", "GothicA1-Light", "Gowun Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
 $myfont_title: "GowunBatang-Regular" !default;
 $myfont_main_title: "PFStardust" !default; //set main.scss
 $myfont_pixcel: "MiraeroNormal" !default;  //set main.scss
+$myfont_recent: "HBIOS-SYS" !default;
 $myfont: "Cafe24SsurroundAir" !default; //set main.scss
 $myfont_a1: "GothicA1-Light" !default; //set main.scss
 $myfont_go: "Gowun Batang" !default;
 $cursive: "Cafe24Shiningstar" !default;
+$myfont_high: "RIDIBatang" !default; //set main.scss
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -37,7 +39,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $myfont_a1 !default;   //$sans-serif
 $caption-font-family: $serif !default;
 
 /* type scale */

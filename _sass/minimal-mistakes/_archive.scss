@@ -35,7 +35,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-family: $sans-serif;
+  font-family: $myfont_recent;
   /*font-size: $type-size-5;*/
   font-size: $type-size-3;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
@@ -78,9 +78,11 @@
   }
 }
 
+// home 포스트 글 설명
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  font-family: $myfont_a1;
 
   & + p {
     text-indent: 0;
