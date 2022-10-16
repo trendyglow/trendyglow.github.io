@@ -263,12 +263,14 @@
   }
 }
 
+//팔로우 버튼
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  right: -3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;

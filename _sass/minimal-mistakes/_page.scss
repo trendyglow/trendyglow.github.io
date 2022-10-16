@@ -148,12 +148,15 @@ body {
     }
   }
 
+  //인라인 코드 
   :not(pre) > code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: 0.8em;
     background: $code-background-color;
     border-radius: $border-radius;
+    font-family: $myfont_high;
+    padding: 0.3em;
 
     &::before,
     &::after {
