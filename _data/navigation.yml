@@ -4,8 +4,6 @@ main:
     url: https://sun0te.github.io
   - title: "Category"
     url: /categories/
-  - title: "🔍"
-    url: /search/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
