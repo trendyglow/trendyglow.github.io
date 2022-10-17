@@ -449,7 +449,7 @@
   margin: 0;
   font-size: 1.25rem;
   font-family: $myfont_go;
-  //font-weight: bold;
+  // font-weight: bold;
  
  
    img { // 방문자수 이미지 크기 조절 
@@ -463,7 +463,7 @@
      color: inherit;
      font-size: $type-size-4;
      font-family: $myfont_go;
-     color: mix(#fff,$primary-color,80%);
+     color: mix(#fff, $primary-color, 50%);
  
      &:hover {
        text-decoration: underline;
@@ -517,9 +517,9 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $myfont_a1;
+  font-family: $myfont_pixcel;
   font-size: $type-size-5;
-  color: mix(rgb(207, 136, 66),$primary-color,35%);
+  color: #b5b200; //mix(rgb(207, 136, 66),$primary-color,35%);
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;

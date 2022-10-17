@@ -89,7 +89,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">자격증</span>
+        <span class="nav__sub-title">CERTIFICATE</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Certificate_EIP" %}
