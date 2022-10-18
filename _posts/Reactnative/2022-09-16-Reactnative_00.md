@@ -10,6 +10,9 @@ tag: [expo]
 author_profile: false
 sidebar:
     nav: "docs"
+header:
+  overlay_image: assets\images\header_overlay.jpg
+  overlay_filter: 0.5 
 ---
 
 

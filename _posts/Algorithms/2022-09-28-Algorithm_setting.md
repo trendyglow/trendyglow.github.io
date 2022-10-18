@@ -10,6 +10,9 @@ tag: [Algorithm, Data_Structure, Snippet, Vscode, Replit]
 author_profile: false
 sidebar:
     nav: "docs"
+header:
+  overlay_image: assets\images\header_overlay.jpg
+  overlay_filter: 0.5 
 ---
 
 ## 알고리즘 셋팅 목표
