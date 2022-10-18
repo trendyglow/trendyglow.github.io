@@ -463,7 +463,7 @@
      color: inherit;
      font-size: $type-size-4;
      font-family: $myfont_go;
-     color: mix(#fff, $primary-color, 50%);
+     color: mix($primary-color, $text-color, 20%);  // mix(#fff, $primary-color, 80%);
  
      &:hover {
        text-decoration: underline;
