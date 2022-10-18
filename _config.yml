@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "Sun0te Blog"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "dev archive" # site tagline that appears below site title in masthead
 name                     : "sun0te"
-description              : "기록하는 블로그"
+description              : "Dev blog"
 url                      : "https://sun0te.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "sun0te/comments_sun0te" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
