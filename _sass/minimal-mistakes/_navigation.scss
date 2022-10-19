@@ -540,6 +540,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
+    font-family: $myfont_main_title;
     color: rgb(77, 77, 77);
     font-size: $type-size-6;
     background: mix(rgb(207, 136, 66), $primary-color, 35%);
