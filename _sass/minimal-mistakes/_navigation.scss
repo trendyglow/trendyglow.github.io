@@ -540,18 +540,21 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: rgb(77, 77, 77);
     font-size: $type-size-6;
     background: mix(rgb(207, 136, 66), $primary-color, 35%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
 
-  // Scrollspy marks toc items as .active when they are in focus
+  // 백그라운드 대신 글자 강조
   .active a {
-    @include yiq-contrasted($active-color);
+    // @include yiq-contrasted($active-color);
+    color: $link-color;
+    font-weight: 700;
   }
 }
+
 
 .toc__menu {
   margin: 0;
