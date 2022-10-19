@@ -73,11 +73,12 @@ p {
   margin-bottom: 1.0em; //1.3em;
 }
 
+// 밑줄 커스텀
 u,
 ins {
   text-decoration: none;
-  border-bottom: 1px solid $primary-color;
-  padding-bottom: 4.5px;
+  border-bottom: 1px solid mix(#000, $link-color, 15%);
+  padding-bottom: 0.1em;
   a {
     color: inherit;
   }
@@ -136,7 +137,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.25em solid mix(#000, $link-color, 25%);
 
   cite {
     font-style: italic;
