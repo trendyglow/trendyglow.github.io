@@ -60,7 +60,7 @@ Chrome 개발자 도구 소스 아래에 있는 탭에 있으며 어떠한 설�
 - OUTPUT 출력 확인 단축키 : `Ctrl` + `Alt` + `N`
 ![image](https://user-images.githubusercontent.com/50590124/192894101-73a22fcd-82e0-47dc-afcc-a8603b52074e.png)  
 - terminal 확인 명령어 : `node` + `실행파일 이름`
-![image](https://user-images.githubusercontent.com/50590124/192895181-3ff6f627-da9f-4bbd-852b-5ef2de57278f.png)
+![image](https://user-images.githubusercontent.com/50590124/192895181-3ff6f627-da9f-4bbd-852b-5ef2de57278f.png)   
 터미널 확인 명령어는 코드 한 줄에 디버그를 걸고 확인하고 싶을 때도 사용 가능합니다.  
 해당 코드에 debugger를 걸고 동일하게 명령어를 입력하면 확인이 가능합니다.
 
