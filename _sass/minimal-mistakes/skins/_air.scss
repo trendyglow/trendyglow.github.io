@@ -21,7 +21,7 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-$summary-color : mix(rgb(255, 247, 200), $primary-color, 3%) !default;
+$summary-color : mix($text-color, #d0b30fe9, 7%) !default;
 
 
 /*
