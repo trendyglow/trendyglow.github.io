@@ -43,7 +43,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Reactnative" %}
-                        <li><a href="/categories/reactenative" class="">ReactNative ({{category[1].size}})</a></li>
+                        <li><a href="/categories/reactnative" class="">ReactNative ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
