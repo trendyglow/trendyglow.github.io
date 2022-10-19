@@ -343,8 +343,10 @@ body {
    Page taxonomy
    ========================================================================== */
 
+   //왼쪽 카테고리 메뉴 클릭시 나오는 포스트제목 목록
 .page__taxonomy {
   margin-top: -10px;
+  line-height: 3em;
   .sep {
     display: inline;
   }
@@ -404,6 +406,7 @@ body {
   }
 }
 
+//home 상단 카테고리 클릭시 나오는 목록들
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -413,7 +416,7 @@ body {
   }
 
   .archive__item-title {
-    margin-top: 0;
+    margin-top: 1em;
   }
 
   .archive__subtitle {
