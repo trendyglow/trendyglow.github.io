@@ -63,10 +63,10 @@ small,
   font-size: $type-size-6;
 }
 
-//추가
+// 토글 리스트 
 summary {
   cursor:pointer;
-  color:rgb(255, 249, 194);
+  color: $summary-color;
 }
 
 p {
@@ -159,9 +159,10 @@ a {
     @extend %tab-focus;
   }
 
+ /* 방문 포스트 글 색상 변경 
   &:visited {
     color: $link-color-visited;
-  }
+  } */
 
   &:hover {
     color: $link-color-hover;
