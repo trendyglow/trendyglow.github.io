@@ -69,8 +69,14 @@ summary {
   color: mix($text-color, #cece4be9, 50%);
 }
 
+//추가
+summary:hover { 
+  font-weight: 700;
+}
+    
+
 p {
-  margin-bottom: 1.0em; //1.3em;
+  margin-bottom: 1.3em;
 }
 
 // 밑줄 커스텀
