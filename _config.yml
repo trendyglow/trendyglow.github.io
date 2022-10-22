@@ -19,7 +19,7 @@ minimal_mistakes_skin2    : "air"
 locale                   : "ko-KR"
 title                    : "Sun0te Blog"
 title_separator          : "|"
-subtitle                 : "dev archive" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "sun0te"
 description              : "Dev blog"
 url                      : "https://sun0te.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
