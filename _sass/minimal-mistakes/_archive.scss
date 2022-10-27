@@ -50,11 +50,11 @@
 //홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: -apple-system, BlinkMacSystemFont;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: $type-size-5;
+  font-size: 1.05em;//$type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
