@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: -apple-system, BlinkMacSystemFont; //포스트 글 폰트 $global-font-family;
+ //포스트 글 폰트 font-family: $global-font-family;
   line-height: 1.5;
 
   &.overflow--hidden {
