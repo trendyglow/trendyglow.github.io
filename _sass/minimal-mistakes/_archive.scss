@@ -37,7 +37,7 @@
   padding-bottom: 0.5em;
   font-family: $myfont_recent;
   /*font-size: $type-size-5;*/
-  font-size: $type-size-3;
+  font-size: $type-size-2;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
   //color: $muted-text-color;
   border-bottom: 1px solid $border-color;
@@ -50,11 +50,11 @@
 //홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: -apple-system, BlinkMacSystemFont;
+  font-family: $sans-serif;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.05em;//$type-size-5;
+  font-size: 1.2em;//$type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
@@ -81,7 +81,7 @@
 // home 포스트 글 설명
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: 0.8em;//$type-size-6;
   font-family: $myfont_sliced;
 
   & + p {
@@ -217,9 +217,10 @@
     }
   }
 
+  //참고 글 리스트
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-4; //$type-size-5;
   }
 
   .archive__item-excerpt {
@@ -227,7 +228,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-5; //$type-size-6;
     }
   }
 

@@ -448,7 +448,7 @@
 //메인홈 왼쪽 카테고리 목록 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.4em;//1.25rem;
   font-family: $myfont;
   // font-weight: bold;
  
@@ -534,7 +534,7 @@
   font-family: $myfont_title;
   color: $gray;
   background-color: $background-color;
-  font-size: $type-size-5;
+  font-size: 0.9em; //$type-size-6;
   //border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
@@ -566,7 +566,7 @@
   font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 15px; //$type-size-7;
   }
 
   a {

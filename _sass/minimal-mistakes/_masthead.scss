@@ -28,7 +28,7 @@
     justify-content: space-between;
     //home, category, search font
     font-family: $myfont_main_title;
-    font-size: $type-size-4;
+    font-size: 1.3em; //$type-size-4;
 
     @include breakpoint($x-large) {
       max-width: $max-width;

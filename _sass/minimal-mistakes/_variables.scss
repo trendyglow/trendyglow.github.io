@@ -40,7 +40,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $myfont_a1 !default;   //$sans-serif
+$header-font-family: $myfont_pixcel !default;   //$sans-serif
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -169,7 +169,7 @@ $max-width:87%;
    ========================================================================== */
 
    $right-sidebar-width-narrow: 180px !default; 
-   $right-sidebar-width: 250px !default;  
+   $right-sidebar-width: 300px !default;  
    $right-sidebar-width-wide: 280px !default;
 
 // $right-sidebar-width-narrow: 200px !default;

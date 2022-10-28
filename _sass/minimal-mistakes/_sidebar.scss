@@ -190,13 +190,13 @@
 //프로필 name font
 .sidebar .author__name {
   font-family: $myfont_main_title;
-  font-size: $type-size-4;
+  font-size: 1.4em;//$type-size-4;
 }
 
 .author__bio {
   margin: 0;
   font-family: $cursive;
-  font-size: $type-size-4;
+  font-size: 1.4em; //$type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
