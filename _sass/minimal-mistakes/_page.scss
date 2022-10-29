@@ -119,7 +119,7 @@ body {
 
   p {
     line-height: 2; //포스트 글의 줄 간격 추가
-    font-size: 1em;  //추가
+    //font-size: 1em;  //추가
   } 
   li,
   dl {
@@ -316,7 +316,7 @@ body {
   margin-top: 2em;
   color: $muted-text-color;
   font-family: $myfont_title;
-  font-size: $type-size-6;
+  font-size: 0.85em;
 
   p {
     margin: 1.5em;  //간격 조정
@@ -379,7 +379,7 @@ body {
   margin-bottom: 8px;
   padding: 5px 10px;
   color: $text-color;
-  font-family: $myfont_high;
+  font-family: $myfont_pixcel;
   text-decoration: none;
   border: 1px solid $link-color-visited;
   border-radius: $border-radius;
@@ -387,6 +387,7 @@ body {
   &:hover {
     text-decoration: none;
     background-color: $link-color-visited; /* 커서 댈 때 색깔 */
+    color: #eaeaea;
   }
 }
 
@@ -396,7 +397,7 @@ body {
     margin-bottom: 8px;
     padding: 5px 10px;
     color: $text-color;
-    font-family: $myfont_sliced;
+    font-family: $myfont_pixcel;
     text-decoration: none;
     border: 1px solid mix($text-color, $background-color, 30%);
     border-radius: $border-radius;

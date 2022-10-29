@@ -26,7 +26,7 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
 
     @include breakpoint($large) {
       float: right;
@@ -462,7 +462,7 @@
  
    a {
      color: inherit;
-     font-size: $type-size-4;
+     font-size: 1.2em;
      font-family: $sans-serif;
      color: mix($primary-color, $text-color, 20%);  // mix(#fff, $primary-color, 80%);
  
@@ -519,7 +519,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $myfont_pixcel;
-  font-size: $type-size-5;
+  font-size: 0.85em;
   color: #b5b200; //mix(rgb(207, 136, 66),$primary-color,35%);
   font-weight: bold;
   text-transform: uppercase;
@@ -529,12 +529,12 @@
 /*
      Table of contents navigation
      ========================================================================== */
-//포스팅글 안의 목차 나열바 (category list)
+//포스팅글 안의 목차 나열바 (category list 버튼)
 .toc {
-  font-family: $myfont_title;
+  font-family: $myfont_pixcel;
   color: $gray;
   background-color: $background-color;
-  font-size: 0.9em; //$type-size-6;
+  font-size: $type-size-7;
   //border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
@@ -542,8 +542,8 @@
 
   .nav__title {
     font-family: $myfont_main_title;
-    color: rgb(77, 77, 77);
-    font-size: 17px;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
     background: mix(rgb(207, 136, 66), $primary-color, 35%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -552,7 +552,7 @@
   // 백그라운드 대신 글자 강조
   .active a {
     // @include yiq-contrasted($active-color);
-    color: $link-color;
+    color: rgb(138, 138, 138);//$link-color;
     font-weight: 700;
   }
 }
@@ -563,10 +563,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: 15px; //$type-size-7;
+    font-size: 13px;
   }
 
   a {

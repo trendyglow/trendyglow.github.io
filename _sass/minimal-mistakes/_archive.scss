@@ -54,7 +54,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.2em;//$type-size-5;
+  font-size: 1.1em;//$type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
@@ -82,7 +82,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: 0.8em;//$type-size-6;
-  font-family: $myfont_sliced;
+  font-family: $myfont_pixcel;
 
   & + p {
     text-indent: 0;
@@ -131,11 +131,13 @@
 /*
    List view
    ========================================================================== */
-
+//작성일, read time
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    font-style: $myfont_pixcel;
+    font-weight: bold;
   }
 }
 
@@ -206,7 +208,9 @@
 
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    font-style: $myfont_pixcel;
+    font-weight: bold;
   }
 
   .page__meta-sep {
@@ -220,7 +224,7 @@
   //참고 글 리스트
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-4; //$type-size-5;
+    font-size: $type-size-5; //$type-size-5;
   }
 
   .archive__item-excerpt {
@@ -228,7 +232,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-5; //$type-size-6;
+      font-size: 0.8em;  //$type-size-6;
     }
   }
 
