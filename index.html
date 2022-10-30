@@ -1,6 +1,6 @@
 ---
 title : Hello! Sun0te Blog
-layout: splash
+layout: archive
 sidebar_main: ture
 author_profile: true
 entries_layout: grid
@@ -12,7 +12,7 @@ header:
 ---
 
 <div class="grid__wrapper">
-    {% for post in site.posts limit:8 %}
+    {% for post in site.posts %}
     {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
@@ -23,5 +23,3 @@ header:
     {% include archive-single.html type=entries_layout %}
     {% endfor %}
 </div>
-
-{% include paginator.html %}
