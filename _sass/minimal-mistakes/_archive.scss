@@ -94,12 +94,13 @@
 }
 
 .archive__item-teaser {
-  position: relative;
+  position: static; //relative;
   border-radius: $border-radius;
   overflow: hidden;
 
   img {
     width: 100%;
+    height: 100%; //높이도 고정
   }
 }
 
@@ -238,12 +239,16 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-height: 200px;
+      height: 9.3em;
+      //max-height: 200px;
+      object-fit: cover;  //비율 강제 고정
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
+      //max-height: 120px;
+      object-fit: cover; //비율 강제 고정
     }
+
   }
 }
 
