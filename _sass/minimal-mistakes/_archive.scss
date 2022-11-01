@@ -239,7 +239,7 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      height: 9.3em;
+      height: 8.7em;
       //max-height: 200px;
       object-fit: cover;  //비율 강제 고정
     }
@@ -248,7 +248,6 @@
       //max-height: 120px;
       object-fit: cover; //비율 강제 고정
     }
-
   }
 }
 

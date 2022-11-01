@@ -520,7 +520,7 @@
   padding: 0.25rem 0;
   font-family: $myfont_pixcel;
   font-size: 0.85em;
-  color: #b5b200; //mix(rgb(207, 136, 66),$primary-color,35%);
+  color: $subtitle; //mix(rgb(207, 136, 66),$primary-color,35%);
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -542,9 +542,9 @@
 
   .nav__title {
     font-family: $myfont_main_title;
-    color: rgb(97, 97, 97);
+    color: #373C3F;
     font-size: 15px;
-    background: mix(rgb(207, 136, 66), $primary-color, 35%);
+    background: mix(rgb(207, 136, 66), $primary-color,35%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
