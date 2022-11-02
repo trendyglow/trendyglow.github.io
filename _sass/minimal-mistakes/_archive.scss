@@ -239,7 +239,7 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      min-height: 8.7em;
+      height: 177px;
       //max-height: 200px;
       object-fit: cover;  //비율 강제 고정
     }
