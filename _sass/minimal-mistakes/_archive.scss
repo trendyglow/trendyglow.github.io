@@ -94,13 +94,19 @@
 }
 
 .archive__item-teaser {
-  position: static; //relative;
+  position: relative;
   border-radius: $border-radius;
   overflow: hidden;
 
+  display: flex;
+  justify-content: center;
+
   img {
-    width: 100%;
-    height: 100%; //높이도 고정
+    //width: 100%;
+    height: 100%; //높이 고정
+    
+    margin: auto;
+    position: absolute;
   }
 }
 
@@ -160,8 +166,20 @@
   }
 }
 
-.grid__item {
+.grid__item {   
   margin-bottom: 2em;
+  transition: all 0.2s linear;  //hover 시간 조정
+
+  //home grid 효과 
+  &:hover {
+      box-shadow: 5px 5px 10px grey;
+    }
+  
+  &:hover img {
+    transform: scale(1.1);
+  }
+
+  padding: 10px; //추가
 
   @include breakpoint($small) {
     float: left;
@@ -182,6 +200,8 @@
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
     width: span(3 of 12);
+
+    min-height: 12em; //추가
 
     &:nth-child(2n + 1) {
       clear: none;
@@ -239,14 +259,14 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      height: 177px;
+      min-height: 130px;
       //max-height: 200px;
-      object-fit: cover;  //비율 강제 고정
+      background-size: contain;  //비율 강제 고정
     }
 
     @include breakpoint($medium) {
       //max-height: 120px;
-      object-fit: cover; //비율 강제 고정
+      background-size: contain; //비율 강제 고정
     }
   }
 }
