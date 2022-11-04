@@ -54,8 +54,11 @@
 .pagination {
   @include clearfix();
   float: left;
+  position: relative;
   margin-top: 1em;
   padding-top: 1em;
+  margin-left: 50%;
+  margin-right: auto;
   width: 100%;
 
   ul {
