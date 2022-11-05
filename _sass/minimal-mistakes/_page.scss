@@ -404,7 +404,8 @@ body {
 
   &:hover {
     text-decoration: none;
-    background-color: mix($text-color, $background-color, 30%); /* 커서 댈 때 색깔 */
+    background-color: rgb(156, 156, 156); /* 커서 댈 때 색깔 */
+    color: #eaeaea;
   }
 }
 

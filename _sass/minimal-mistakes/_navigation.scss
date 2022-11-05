@@ -465,7 +465,7 @@
    a {
      color: inherit;
      font-size: 1.2em;
-     font-family: $sans-serif;
+     font-family: $myfont_grid_title;
      color: mix($primary-color, $text-color, 20%);  // mix(#fff, $primary-color, 80%);
  
      &:hover {
@@ -511,7 +511,7 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: $myfont_title;
+  font-family: $myfont_grid_title;
   font-size: $type-size-4;
   font-weight: bold;
 }
@@ -520,7 +520,7 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $myfont_pixcel;
+  font-family: $myfont_grid_title;
   font-size: 0.85em;
   color: $subtitle; //mix(rgb(207, 136, 66),$primary-color,35%);
   font-weight: bold;

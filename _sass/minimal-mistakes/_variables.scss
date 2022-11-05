@@ -17,6 +17,7 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: "GowunDodum-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$myfont_grid_title: "NEXON Lv1 Gothic OTF" !default;
 $myfont_title: "GowunBatang-Regular" !default;
 $myfont_main_title: "PFStardust" !default; //set main.scss
 $myfont_pixcel: "GothicA1-Light" !default;  
@@ -38,7 +39,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $myfont_pixcel !default;   //$sans-serif
+$header-font-family: $myfont_grid_title !default;   //$sans-serif
 $caption-font-family: $serif !default;
 
 /* type scale */

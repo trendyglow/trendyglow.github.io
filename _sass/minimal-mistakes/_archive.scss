@@ -50,7 +50,7 @@
 //홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif;
+  font-family: $myfont_grid_title;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -142,8 +142,8 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.8em;
-    font-style: $myfont_pixcel;
+    font-size: 0.9em;
+    font-style: $myfont_grid_title;
     font-weight: bold;
   }
 }
@@ -229,8 +229,8 @@
 
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.8em;
-    font-style: $myfont_pixcel;
+    font-size: 0.9em;
+    font-style: $myfont_grid_title;
     font-weight: bold;
   }
 
