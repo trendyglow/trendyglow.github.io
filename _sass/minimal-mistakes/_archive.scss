@@ -140,10 +140,15 @@
    ========================================================================== */
 //작성일, read time
 .list__item {
+  margin-top: 1em;
+
+  a {   //사이드바 카테고리 클릭 시 나열되는 타이틀 
+    font-family: $myfont_grid_title;
+  }
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.9em;
-    font-style: $myfont_grid_title;
+    font-family: $myfont_grid_title;
     font-weight: bold;
   }
 }
