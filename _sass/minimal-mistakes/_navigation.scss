@@ -533,7 +533,7 @@
      ========================================================================== */
 //포스팅글 안의 목차 나열바
 .toc {
-  font-family: $myfont_pixcel;
+  font-family: $myfont_a1;
   color: $gray;
   background-color: $background-color;
   font-size: $type-size-7;
@@ -554,8 +554,8 @@
   // 백그라운드 대신 글자 강조
   .active a {
     // @include yiq-contrasted($active-color);
-    color: rgb(138, 138, 138);//$link-color;
-    font-weight: 700;
+    color: mix(rgb(207, 136, 66), $primary-color, 35%); //$link-color;
+    font-weight: bold;
   }
 }
 
