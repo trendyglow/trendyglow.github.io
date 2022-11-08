@@ -13,7 +13,8 @@ body {
   padding: 0;
   color: $text-color;
  //포스트 글 폰트 font-family: $global-font-family;
-  font-family: $myfont_post;
+  font-family: $myfont_post; 
+  font-size: 17px;
   line-height: 1.5;
 
   &.overflow--hidden {
