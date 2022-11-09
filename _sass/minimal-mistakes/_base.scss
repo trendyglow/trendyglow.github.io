@@ -14,7 +14,7 @@ body {
   color: $text-color;
  //포스트 글 폰트 font-family: $global-font-family;
   font-family: $myfont_post; 
-  font-size: 17px;
+  font-size: 1.15em;
   line-height: 1.5;
 
   &.overflow--hidden {
