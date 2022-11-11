@@ -304,8 +304,8 @@ body {
 //공유하기 폰트
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-5;
-  font-family: $myfont_main_title;
+  font-size: 0.77em;  //font-size: $type-size-5;
+  font-family: $myfont_grid_title;
   text-transform: uppercase;
 }
 
@@ -317,7 +317,7 @@ body {
   margin-top: 2em;
   color: $muted-text-color;
   font-family: $myfont_grid_title;
-  font-size: 16px;  //0.85em;
+  font-size: 0.85em;
 
   p {
     margin: 0;  //간격 조정
@@ -326,8 +326,13 @@ body {
 
   a {
     color: inherit;
-    font-size: 16px; //0.85em;
   }
+}
+
+.page__date {
+  margin-top: -10px;
+  line-height: 3em;
+  font-size: 0.77em;
 }
 
 .page__meta-title {
@@ -350,6 +355,8 @@ body {
 .page__taxonomy {
   margin-top: -10px;
   line-height: 3em;
+  font-size: 0.77em;
+
   .sep {
     display: inline;
   }
