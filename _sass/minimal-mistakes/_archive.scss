@@ -179,7 +179,7 @@
   transition: all 0.2s linear;  //hover 시간 조정
   box-shadow: 0px 0px 5px grey;
   backdrop-filter: blur(10px);
-  height: 17em;
+  max-height: 17em;
   
 
   //home grid 효과 
