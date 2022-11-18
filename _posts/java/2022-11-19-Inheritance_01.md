@@ -14,6 +14,7 @@ header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 
   teaser: assets/images/java.png
+published: true
 ---
 
 `이것이 자바다` 의 Chapter07 을 참고하여 정리한 포스트입니다.
