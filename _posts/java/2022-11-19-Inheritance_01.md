@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 date: 2022-11-19
 categories: [Java]
-tag: [Inheritance, Override, ]
+tag: [Inheritance, Override, super()]
 author_profile: false
 sidebar:
     nav: "docs"
