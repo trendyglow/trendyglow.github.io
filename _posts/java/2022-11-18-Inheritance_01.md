@@ -20,7 +20,7 @@ published: true
 `이것이 자바다` 의 Chapter07 을 참고하여 정리한 포스트입니다.
 {: .notice--warning}
 
-# Chapter 07. 상속
+# Chapter 07. 상속 - 1
 
 ## 1. 상속 (Inheritance) 개념  
 
