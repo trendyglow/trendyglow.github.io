@@ -55,6 +55,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 1.1em;//$type-size-5;
+  padding-left: 5px; //추가
 
   a[rel="permalink"]::before {
     content: '';
@@ -83,6 +84,7 @@
   margin-top: 0;
   font-size: 0.8em;//$type-size-6;
   font-family: $myfont_a1;
+  padding-left: 5px; //추가
 
   & + p {
     text-indent: 0;
@@ -103,18 +105,18 @@
 
   background-color: mix(rgb(122, 122, 122), $background-color, 10%);
   backdrop-filter: blur(10px);
+  width: 100%;  //높이 비율 고정
+  max-height: 9em;
 
   img {
-    //width: 100%;
-    height: 100%; //높이 비율 고정
-    max-height: 9em;
     margin: auto;
     position: relative;  //absolute;
+    object-fit: fill;
   }
 }
 
 .archive__item-caption {
-  position: absolute;
+  position: relative;  //absolute;
   bottom: 0;
   right: 0;
   margin: 0 auto;
@@ -177,22 +179,17 @@
 .grid__item {   
   margin-bottom: 2em;
   transition: all 0.2s linear;  //hover 시간 조정
-  box-shadow: 0px 0px 5px grey;
   backdrop-filter: blur(10px);
   height: 100%;
-  
 
   //home grid 효과 
   &:hover {
-      transform: scale(1.1);
       box-shadow: 2px 6px 12px 6px rgba(0, 0, 0, 0.3);
     }
   
   &:hover img {
-    //transform: scale(1.1);
+    transform: scale(1.1);
   }
-
-  padding: 10px; //추가
 
   @include breakpoint($small) {
     float: left;
@@ -245,6 +242,7 @@
     font-size: 0.9em;
     font-style: $myfont_grid_title;
     font-weight: bold;
+    padding-left: 5px; //추가
   }
 
   .page__meta-sep {
@@ -262,7 +260,7 @@
   }
 
   .archive__item-excerpt {
-    display: none;
+    display: inline; //none;
 
     @include breakpoint($medium) {
       display: block;
