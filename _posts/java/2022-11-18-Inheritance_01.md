@@ -146,10 +146,12 @@ super(매개값, ...) 는 매개값의 타입과 일치하는 부모 생성자�
 <center><img src="/images/2022-11-18-java_Inheritance/method_override.png"></center>  
 <br>
 <br>
-**<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  메소드 오버라이딩할 때 주의할 사항**
-- 부모의 메소드와 동일한 시그너처(리턴 타입, 메소드 이름, 매개 변수 리스트) 를 가져야 한다.  
-- 접근 제한을 더 강하게 오버라이딩 할 수 없다.  
-- 새로운 예외(Exception) 를 throws 할 수 없다. (예외는 Chapter 10에 기술)
+
+**<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  메소드 오버라이딩할 때 주의할 사항**   
+    - 부모의 메소드와 동일한 시그너처(리턴 타입, 메소드 이름, 매개 변수 리스트) 를 가져야 한다.  
+    - 접근 제한을 더 강하게 오버라이딩 할 수 없다.  
+    - 새로운 예외(Exception) 를 throws 할 수 없다. (예외는 Chapter 10에 기술)
+{: .notice--info}
 
 부모 메소드가 public 접근 제한을 가지고 있을 경우 오버라이딩하는 자식 메소드는 default 나 private 접근 제한으로 수정할 수 없기 때문에 접근 제한을 더 강하게 오버라이딩 할 수 없다.  
 단, 반대로 부모 메소드가 default 접근 제한을 가지면 재정의되는 자식 메소드는 default 또는 public 접근 제한을 가질 수 있다.  
