@@ -24,6 +24,7 @@
   a {
     position: relative;
     z-index: 10;
+    text-decoration: none;
   }
 
   a[rel="permalink"] {
@@ -37,8 +38,8 @@
   padding-bottom: 0.5em;
   font-family: $myfont_recent;
   /*font-size: $type-size-5;*/
-  font-size: $type-size-2;
-  color: mix(rgb(207, 136, 66),$primary-color,35%);
+  font-size: $type-size-3;
+  color: $text-color; //mix(rgb(207, 136, 66),$primary-color,35%);
   //color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -149,12 +150,14 @@
 
   a {   //사이드바 카테고리 클릭 시 나열되는 타이틀 
     font-family: $myfont_grid_title;
+    text-decoration: none;
   }
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.9em;
     font-family: $myfont_grid_title;
     font-weight: bold;
+    padding-left: 5px; //추가
   }
 }
 
@@ -182,13 +185,13 @@
   backdrop-filter: blur(10px);
   height: 100%;
 
-  //home grid 효과 
   &:hover {
-      box-shadow: 2px 6px 12px 6px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px 1px 3px 1px mix(rgb(122, 122, 122), $background-color, 10%);
+      transform: translate(0, -15px);
     }
   
   &:hover img {
-    transform: scale(1.1);
+    transform: translate(0, -15px); //scale(1.1);
   }
 
   @include breakpoint($small) {
@@ -206,35 +209,39 @@
     }
   }
 
+  //grid 4배열에서 3배열
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
-    width: span(3 of 12);
+    width: span(4 of 12); //width: span(3 of 12);
 
     min-height: 12em; //추가
 
-    &:nth-child(2n + 1) {
+     &:nth-child(2n + 1) {  //&:nth-child(2n + 1) {
       clear: none;
     }
 
-    &:nth-child(4n + 1) {
+    &:nth-child(3n + 1) { //&:nth-child(4n + 1) {
       clear: both;
+      margin-left: 0;
     }
 
-    &:nth-child(4n + 2) {
+    &:nth-child(3n + 2) { //&:nth-child(4n + 2) {
       clear: none;
       margin-left: gutter(1 of 12);
     }
 
-    &:nth-child(4n + 3) {
+    &:nth-child(3n + 3) { //&:nth-child(4n + 3) {
       clear: none;
       margin-left: gutter(1 of 12);
     }
 
+    /*
     &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
+     clear: none;
+     margin-left: gutter(1 of 12);
     }
+    */
   }
 
   .page__meta {

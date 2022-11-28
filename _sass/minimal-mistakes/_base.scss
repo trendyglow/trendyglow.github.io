@@ -161,9 +161,6 @@ blockquote {
 
 a {
 
-  /* devinlife : a link 하이퍼링크 밑줄 없애기(포스트제목밑줄) */
-  text-decoration: none;
-
   &:focus {
     @extend %tab-focus;
   }
