@@ -36,11 +36,10 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-family: $myfont_recent;
-  /*font-size: $type-size-5;*/
+  padding-left: 1px;
+  font-family: $myfont_title;
   font-size: $type-size-3;
-  color: $text-color; //mix(rgb(207, 136, 66),$primary-color,35%);
-  //color: $muted-text-color;
+  color: $text-color; 
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -160,6 +159,25 @@
     padding-left: 5px; //추가
   }
 }
+
+.archive__item_tag {
+  margin-top: 1em;
+  
+    a {
+      //테그 클릭 시 나열되는 타이틀 
+      font-family: $myfont_grid_title;
+      text-decoration: none;
+    }
+  
+    .page__meta {
+      margin: 0 0 4px;
+      font-size: 0.9em;
+      font-family: $myfont_grid_title;
+      font-weight: bold;
+      padding-left: 5px; //추가
+    }
+}
+
 
 /*
    Grid view

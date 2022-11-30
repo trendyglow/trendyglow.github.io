@@ -1,5 +1,5 @@
 ---
-title: "Recent Posts"
+title: "All-archive"
 permalink: /year-archive/
 layout: archive
 author_profile: true

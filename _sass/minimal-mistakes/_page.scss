@@ -75,8 +75,8 @@ body {
   font-family: $myfont_title;
   font-weight: bold;
 
-   a {
-    color: $text-color; //mix(rgb(207, 136, 66), $primary-color, 35%);
+  a {
+    color: $text-color; 
     text-decoration: none;
   }
 
@@ -115,7 +115,6 @@ body {
 
   p {
     line-height: 1.7; //포스트 글의 줄 간격 추가
-    //font-size: 1em;  //추가
   } 
   li,
   dl {
@@ -413,7 +412,7 @@ body {
   }
 }
 
-//home 상단 카테고리 클릭시 나오는 목록들
+//category, tag 페이지 나오는 목록들
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -450,14 +449,16 @@ body {
   grid-column-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
   margin: 1.414em 0;
-  padding: 0;
+  padding: 2em;
   font-size: 0.75em;
   list-style: none;
 
   @include breakpoint($large) {
     grid-template-columns: repeat(3, 1fr);
+    background-color: mix(rgb(122, 122, 122), $background-color, 10%);
+    border-radius: 7px 7px 7px 7px;  
   }
-//카테고리 페이지의 맨위 카테고리 키워드들
+//카테고리, 테그 키워드들
   a {
     display: -webkit-box;
     display: -ms-flexbox;

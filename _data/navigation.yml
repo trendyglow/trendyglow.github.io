@@ -1,7 +1,8 @@
 # main links
 main:
-  #- title: "HOME"
-  #  url: https://sun0te.github.io
+  - title: home
+    url: https://sun0te.github.io/
+
   - title: "Posts"
     url: /year-archive/
   

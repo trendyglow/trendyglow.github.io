@@ -91,9 +91,15 @@
       float: right;
 
       .toc {
+        /*
         .toc__menu {
           overflow-y: auto;
           max-height: calc(100vh - 7em);
+        }
+        */
+        .active > a {
+          @include yiq-contrasted($active-color);
+          text-decoration: underline;
         }
       }
     }
