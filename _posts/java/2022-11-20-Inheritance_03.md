@@ -49,9 +49,7 @@ public class Car {
 프로그램 실행 도중에 자동적으로 타입 변환이 일어나는 것으로  
 자식은 부모의 특징과 기능을 상속받기 때문에 부모와 동일하게 취급될 수 있다.  
  
-**부모 클래스 <u>변수</u>ㅤㅤ=ㅤㅤ자식클래스타입;**  
-  ㅤㅤㅤㅤ ㅤ  ↑ㅤㅤㅤㅤ ㅤㅤㅤㅤ│  
-  ㅤㅤㅤㅤ ㅤ  └─자동 타입 변환─┘
+<center><img src="/images/2022-11-18-java_Inheritance/promotion_formula.png"></center>
 {: .notice--info}
 
 > **ex)** Animal 과 Dog 클래스 상속관계
@@ -235,10 +233,9 @@ driver.drive(vehicle);
 Driver driver = new Driver();
 Bus bus = new Bus();
 driver.drive( bus );  //자동 타입 변환 발생 
-```
-  ㅤVehicle vehicle ㅤ=ㅤ ㅤbus;  
-    ㅤㅤㅤㅤㅤ↑ㅤㅤㅤㅤㅤㅤ │    
-    ㅤㅤㅤㅤㅤ└자동 타입 변환┘
+```  
+
+  <img src="/images/2022-11-18-java_Inheritance/vehicle_exam.png">
   {: .notice--info}
 
 - 매개 변수 타입이 클래스인 경우, 해당 클래스의 객체 뿐만 아니라 자식 객체까지도 매개값으로 사용할 수 있다.
@@ -254,10 +251,7 @@ void drive(Vehicle vehicle) { //Vehicle ← 자식 객체
 강제 타입 변환 : 부모 타입을 자식 타입으로 변환하는 것으로,  
 자식이 부모 타입으로 자동 변환한 후, 다시 자식 타입으로 변환할 때 사용이 가능하다.    
 
-  ㅤㅤㅤㅤㅤ┌──*자동 타입 변환*──┐  
-    ㅤㅤㅤㅤㅤ↓ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ │  
-**자식클래스 <u>변수</u> = (자식클래스) <u>부모 클래스타입</u>;**  
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤ*자식 타입이 부모 타입으로 변환된 상태*
+<center><img src="/images/2022-11-18-java_Inheritance/casting_formula.png"></center>
 {: .notice--info}
 
 > **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 제약사항**  
@@ -281,8 +275,8 @@ Child child = (Child) parent; //강제 타입 변환 불가능
 메소드 내 강제 타입 변환이 필요한 경우 반드시 매개값이 어떤 객체인지 instanceof 연산자로 확인한다.  
 부모 변수가 참조하는 객체가 부모 객체인지 자식 객체인지 확인할 수 있다. 
 
-**instanceof 연산자**     
-ㅤboolean result = 좌항(객체) instanceof 우항(타입)
+**instanceof 연산자**  
+ boolean result = *좌항*(객체) instanceof *우항*(타입)
 {: .notice--info}
 
 - **ex)** Parent 매개 변수가 참조하는 객체가 Child 인지 조사
