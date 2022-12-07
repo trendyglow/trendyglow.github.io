@@ -8,8 +8,6 @@ date: 2022-11-19
 categories: [Java]
 tag: [final, protected]
 author_profile: false
-sidebar:
-    nav: "docs"
 header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 

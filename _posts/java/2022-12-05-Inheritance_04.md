@@ -8,8 +8,6 @@ date: 2022-12-05
 categories: [Java]
 tag: [추상 클래스, abstract class, override]
 author_profile: false
-sidebar:
-    nav: "docs"
 header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 

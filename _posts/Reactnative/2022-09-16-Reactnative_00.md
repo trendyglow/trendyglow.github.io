@@ -8,8 +8,6 @@ date: 2022-09-16
 categories: [Reactnative]
 tag: [expo]
 author_profile: false
-sidebar:
-    nav: "docs"
 header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 

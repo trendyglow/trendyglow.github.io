@@ -8,8 +8,6 @@ date: 2022-11-20
 categories: [Java]
 tag: [Promotion, 다형성, 배열 관리, Casting, instanceof]
 author_profile: false
-sidebar:
-    nav: "docs"
 header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 

@@ -8,8 +8,6 @@ date: 2022-09-28
 categories: [Algorithm]
 tag: [Algorithm, Data_Structure, Snippet, Vscode, Replit]
 author_profile: false
-sidebar:
-    nav: "docs"
 header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 
