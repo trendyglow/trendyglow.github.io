@@ -6,14 +6,15 @@ toc: true
 toc_sticky: true
 date: 2022-12-20
 categories: [Git]
-tag: [git rebase]
+tag: [rebase]
 author_profile: false
 header:
   overlay_image: assets/images/header_post_1.jpg
-  overlay_filter: 0.5 
+  overlay_filter: 0.5
   teaser: assets/images/git.png
 published: true
----  
+---
+
 ## push한 commit message 수정
 
 1. **Terminal 에서 수정할 git 파일이 있는 폴더로 이동한다.**  
