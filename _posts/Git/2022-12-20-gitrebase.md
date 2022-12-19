@@ -16,7 +16,7 @@ published: true
 ---  
 ## push한 commit message 수정
 
-1. **Terminal 에서 수정할 git 파일이 있는 폴더로 이동한다.**
+1. **Terminal 에서 수정할 git 파일이 있는 폴더로 이동한다.**  
 
 2. **Terminal에 rebase 명령어 입력**  
 git rebase HEAD~[최근에 커밋한 수]
