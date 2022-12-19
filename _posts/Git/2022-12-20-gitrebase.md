@@ -12,6 +12,7 @@ header:
   overlay_image: assets/images/header_post_1.jpg
   overlay_filter: 0.5 
   teaser: assets/images/git.png
+published: true
 ---  
 ## push한 commit message 수정
 
