@@ -1,5 +1,5 @@
 ---
-title : "[Git] VScode에서 push한 commit message 수정"
+title : "[Git] push한 commit message 수정"
 layout: single
 excerpt: "git rebase"
 toc: true
@@ -15,7 +15,8 @@ header:
 published: true
 ---
 
-## push한 commit message 수정
+# 이미 push한 commit message 수정
+- VScode 에서 실행한다.  
 
 1. **Terminal 에서 수정할 git 파일이 있는 폴더로 이동한다.**  
 
