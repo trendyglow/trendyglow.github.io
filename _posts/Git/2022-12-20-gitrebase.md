@@ -1,12 +1,12 @@
 ---
-title : "[Git] VScode에서 이미 push한 commit message 수정"
+title : "[Git] VScode에서 push한 commit message 수정"
 layout: single
 excerpt: "git rebase"
 toc: true
 toc_sticky: true
 date: 2022-12-20
 categories: [Git]
-tag: [rebase]
+tag: [git]
 author_profile: false
 header:
   overlay_image: assets/images/header_post_1.jpg
@@ -34,6 +34,7 @@ git rebase HEAD~[최근에 커밋한 수]
 5. **Terminal에 push 명령어 입력**  
 git push --force 를 입력한다.  
 원격 저장소에 변경된 커밋 메세지를 확인할 수 있다.  
+
 
 🌞 정보 : 공부 기록용 블로그입니다. 오타나 내용 오류가 있을 경우 알려주시면 감사하겠습니다.
 {: .notice}
