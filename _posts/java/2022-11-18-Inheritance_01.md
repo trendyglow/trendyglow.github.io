@@ -15,8 +15,7 @@ header:
 published: true
 ---
 
-`이것이 자바다` 의 Chapter07 을 참고하여 정리한 포스트입니다.
-{: .notice--warning}
+*<i class="fa fa-info-circle" aria-hidden="true"></i> 이것이 자바다 의 Chapter07 을 참고하여 정리한 포스트입니다.*  
 
 # Chapter 07. 상속 - 1
 
