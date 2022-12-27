@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 date: 2022-12-05
 categories: [Java]
-tag: [추상 클래스, abstract class, override]
+tag: [이것이 자바다, Inheritance]
 author_profile: false
 header:
   overlay_image: assets/images/header_post_1.jpg

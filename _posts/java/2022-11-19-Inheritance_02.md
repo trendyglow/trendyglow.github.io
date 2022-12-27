@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 date: 2022-11-19
 categories: [Java]
-tag: [final, protected]
+tag: [이것이 자바다, Inheritance]
 author_profile: false
 header:
   overlay_image: assets/images/header_post_1.jpg

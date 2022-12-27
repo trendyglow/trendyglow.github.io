@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 date: 2022-11-20
 categories: [Java]
-tag: [Promotion, 다형성, 배열 관리, Casting, instanceof]
+tag: [이것이 자바다, Inheritance]
 author_profile: false
 header:
   overlay_image: assets/images/header_post_1.jpg

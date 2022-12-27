@@ -28,8 +28,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Html_css" %}
-                        <li><a href="/categories/html_css" class="">HTML/CSS ({{category[1].size}})</a></li>
+                    {% if category[0] == "Frontend" %}
+                        <li><a href="/categories/frontend" class="">Frontend ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -106,8 +106,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Certificate_network_2" %}
-                        <li><a href="/categories/certificate_network_2" class="">네트워크관리사 2급 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Certificate_Network" %}
+                        <li><a href="/categories/certificate_Network" class="">네트워크관리사 2급 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
