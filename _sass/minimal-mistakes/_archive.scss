@@ -48,7 +48,7 @@
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
-    display: flex;
+    //display: flex;
   }
 }
 
@@ -78,17 +78,20 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0;
     border-bottom: none;
+  }
+  .no_toc {
+    margin-top: 0;
   }
 }
 
 // home 포스트 글 설명
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: 0.8em;//$type-size-6;
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 0.9em;//$type-size-6;
   font-family: $myfont_a1;
-  padding-left: 5px; //추가
 
   & + p {
     text-indent: 0;
@@ -97,6 +100,11 @@
   a {
     position: relative;
   }
+}
+
+//category, all archive 타이틀 여백 삭제
+h2.archive__item-title.no_toc {
+  margin-top: 0;
 }
 
 .archive__item-teaser {
@@ -162,12 +170,9 @@
   }
 
   .archive__item-postbox {
-    //float: right;
     display: inline-block;
-    //margin-top: 0.7em;
     padding-bottom: 0.25em;
     clear: both;
-    //max-height: 13em;
     width: auto;
     vertical-align: middle;
 
@@ -218,7 +223,7 @@
     font-size: 0.9em;
     font-family: $myfont_grid_title;
     font-weight: bold;
-    padding-left: 5px; //추가
+    display: inline-block;
   }
 }
 
@@ -347,7 +352,7 @@
   }
 
   .archive__item-excerpt {
-    display: inline; //none;
+    display: inline-block; //none;
 
     @include breakpoint($medium) {
       display: block;

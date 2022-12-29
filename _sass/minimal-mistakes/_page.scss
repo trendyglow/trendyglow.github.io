@@ -442,6 +442,7 @@ body {
 
 .taxonomy__count {
   color: $muted-text-color;
+  margin-left: 0.5em;
 }
 
 .taxonomy__index {
@@ -452,10 +453,11 @@ body {
   padding: 2em;
   font-size: 0.75em;
   list-style: none;
+  position: relative;
+  background-color: mix(rgb(122, 122, 122), $background-color, 10%);
 
   @include breakpoint($large) {
     grid-template-columns: repeat(3, 1fr);
-    background-color: mix(rgb(122, 122, 122), $background-color, 10%);
     border-radius: 7px 7px 7px 7px;  
   }
 //카테고리, 테그 키워드들
