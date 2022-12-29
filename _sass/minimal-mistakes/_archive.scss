@@ -119,6 +119,7 @@ h2.archive__item-title.no_toc {
   backdrop-filter: blur(10px);
   width: 100%;  //높이 비율 고정
   max-height: 10em;
+  margin-bottom: 5px;
 
   img {
     margin: auto;
@@ -269,6 +270,7 @@ h2.archive__item-title.no_toc {
   transition: all 0.2s linear;  //hover 시간 조정
   backdrop-filter: blur(10px);
   height: 100%;
+  padding: 3px;
 
   &:hover {
       box-shadow: 1px 1px 3px 1px mix(rgb(122, 122, 122), $background-color, 10%);
@@ -334,7 +336,7 @@ h2.archive__item-title.no_toc {
     font-size: 0.9em;
     font-style: $myfont_grid_title;
     font-weight: bold;
-    padding-left: 5px; //추가
+    margin-top: 5px;
   }
 
   .page__meta-sep {
