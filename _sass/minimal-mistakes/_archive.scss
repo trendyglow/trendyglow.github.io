@@ -30,6 +30,10 @@
   a[rel="permalink"] {
     position: static;
   }
+
+  &:hover img {
+    transform: scale(1.1);
+  }
 }
 
 //홈 화면 "최근 포스트" font 
@@ -44,6 +48,7 @@
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
+    display: flex;
   }
 }
 
@@ -55,7 +60,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 1.1em;//$type-size-5;
-  padding-left: 5px; //추가
 
   a[rel="permalink"]::before {
     content: '';
@@ -115,6 +119,64 @@
   }
 }
 
+.list__item {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+  .archive__item-teaser_list {
+    position: relative;
+    border-radius: $border-radius;
+    overflow: hidden;
+    transition: all 0.2s linear; //hover 시간 조정
+    margin-right: 0.5em;
+
+    display: inline-block;
+    justify-content: center;
+
+    background-color: mix(rgb(122, 122, 122), $background-color, 10%);
+    backdrop-filter: blur(10px);
+    width: 17em;
+    max-height: 150px;
+    text-align: center;
+    vertical-align: middle;
+
+    img {
+      margin: auto;
+      position: relative; //absolute;
+      object-fit: contain;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    @include breakpoint($small) {
+      min-height: 130px;
+      background-size: contain; //비율 강제 고정
+    }
+
+    @include breakpoint($medium) {
+      background-size: contain; //비율 강제 고정
+    }
+  }
+
+  .archive__item-postbox {
+    //float: right;
+    display: inline-block;
+    //margin-top: 0.7em;
+    padding-bottom: 0.25em;
+    clear: both;
+    //max-height: 13em;
+    width: auto;
+    vertical-align: middle;
+
+    h2 {
+        margin: 0 0 4px;
+        padding-top: 5px;
+      }
+  }
+}
 .archive__item-caption {
   position: relative;  //absolute;
   bottom: 0;
