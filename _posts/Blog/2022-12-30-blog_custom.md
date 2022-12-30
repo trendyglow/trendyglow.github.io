@@ -470,7 +470,8 @@ header:
   right: 1.5em;
   z-index: 10;
   font-size: 1.5em;
-  color: $primary-color; //컬러 변경도 가능하다
+  display: inline-block;
+  color: $primary-color; //inline-block으로 설정 시 컬러 변경도 가능하다
 }
 ```
 변경된 코드는 여기서 자세히 확인할 수 있다.
