@@ -1,5 +1,5 @@
 ---
-title : "[Github Blog] 블로그 메인 화면 thumnail이 있는 list 글 목록으로 변경하기"
+title : "[Github Blog] 블로그 메인 화면 thumbnail이 있는 list 글 목록으로 변경하기"
 layout: single
 excerpt: "[minimal-mistakes 테마] 블로그 글 목록 썸네일 추가"
 toc: true
@@ -250,7 +250,7 @@ back to top, back to bottom 버튼을 위 아래로 정렬하고 다크모드 �
 필자는 습관적으로 모바일에서 본인이 올린 블로그의 글을 계속 읽어보는데 다크모드로 변경하는데 있어서  
 버튼이 상단바에 있는 것보다 하단에 있는 것이 더 유용하다고 판단했다.  
 
-list 형식에서 thumnail 도 추가하고 싶어서 index.html 코드를 수정하고  
+list 형식에서 thumbnail 도 추가하고 싶어서 index.html 코드를 수정하고  
 archive-single3.html 을 새로 생성하여 list 형식에도 썸네일을 보이게 구성해였다.  
 
 - `index.html` 코드
