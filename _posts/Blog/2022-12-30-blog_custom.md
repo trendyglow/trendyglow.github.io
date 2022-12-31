@@ -339,7 +339,6 @@ header:
     position: relative;
     border-radius: $border-radius;
     overflow: hidden;
-    transition: all 0.2s linear; //hover 시간 조정
     margin-right: 0.5em;
 
     display: inline-block;
@@ -358,6 +357,7 @@ header:
       object-fit: contain;
       overflow: hidden;
       justify-content: center;
+      transition: all 0.3s linear; //hover 시간 조정
     }
 
     @include breakpoint($small) {
