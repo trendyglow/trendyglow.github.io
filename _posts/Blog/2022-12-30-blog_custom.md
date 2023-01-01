@@ -474,8 +474,8 @@ header:
   color: $primary-color; //inline-block으로 설정 시 컬러 변경도 가능하다
 }
 ```
-변경된 코드는 여기서 자세히 확인할 수 있다.
-<https://github.com/sun0te/sun0te.github.io/commit/d4164ba44fdc5eb1d1f4563345f71019354c3c4d>
+변경된 코드는 여기서 자세히 확인할 수 있다.  
+> [깃허브 list thumbnail 설정](https://github.com/sun0te/sun0te.github.io/commit/d4164ba44fdc5eb1d1f4563345f71019354c3c4d)
 
 
 ## 카테고리, 태그 버튼 추가
@@ -619,15 +619,15 @@ header:
 }
 ```
 변경된 코드는 여기서 자세히 확인할 수 있다.  
-<https://github.com/sun0te/sun0te.github.io/commit/687ada4272deba4198934a1bf5336270bdb3c1c8>
+> [깃허브 카테고리, 태그 버튼 추가](https://github.com/sun0te/sun0te.github.io/commit/687ada4272deba4198934a1bf5336270bdb3c1c8)
 
-## 참고
-<https://web.chaehni.ch/web/blog-thumbnails/>  
-<https://github.com/mcfisch/mcfisch.github.io/blob/main/_includes/archive-single.html>  
-<https://www.zerocho.com/category/CSS/post/5881edef636a7f0b8e8507d8>  
-<https://github.com/mmistakes/minimal-mistakes/discussions/2033#discussioncomment-257421>  
-<https://github.com/mmistakes/minimal-mistakes/issues/623#issuecomment-1142181644>
-<https://ansohxxn.github.io/blog/category/>  
+## 참고 URL  
+[썸네일 참고](https://web.chaehni.ch/web/blog-thumbnails/)  
+[메인화면 참고](https://github.com/mcfisch/mcfisch.github.io/blob/main/_includes/archive-single.html)  
+[css div 정렬 참고](https://www.zerocho.com/category/CSS/post/5881edef636a7f0b8e8507d8)  
+[다크모드 버튼 참고](https://github.com/mmistakes/minimal-mistakes/discussions/2033#discussioncomment-257421)  
+[그리드 배열 참고](https://github.com/mmistakes/minimal-mistakes/issues/623#issuecomment-1142181644)  
+[카테고리, 태그버튼 참고](https://ansohxxn.github.io/blog/category/)  
 
 🌞 정보 : 공부 기록용 블로그입니다. 오타나 내용 오류가 있을 경우 알려주시면 감사하겠습니다.
 {: .notice}
