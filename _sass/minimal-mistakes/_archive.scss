@@ -270,7 +270,6 @@ h2.archive__item-title.no_toc {
   transition: all 0.2s linear;  //hover 시간 조정
   backdrop-filter: blur(10px);
   height: 100%;
-  padding: 3px;
 
   &:hover {
       box-shadow: 1px 1px 3px 1px mix(rgb(122, 122, 122), $background-color, 10%);
