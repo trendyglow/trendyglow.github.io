@@ -324,64 +324,67 @@ header:
 
 썸네일 클래스 <div class="archive__item-teaser_list">과  
 블로그 글 클래스 <div class="archive__item-postbox"> 로 나누어서  
-나란히 나열되도록 위치와 크기를 커스텀하기 위해 `_archive.scss`에서 .archive__item-teaser{...} 아래 코드를 추가했다.  
+나란히 나열되도록 위치와 크기를 커스텀하기 위해 `_archive.scss`에서 코드를 추가했다.  
 - `\sass\minimal-mistakes\_archive.scss` 코드  
 
 ```scss
-.list__item {
-  position: relative;
-  display: inline-block;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-
-  .archive__item-teaser_list {
+  .list__item {
     position: relative;
-    border-radius: $border-radius;
-    overflow: hidden;
-    margin-right: 0.5em;
-
     display: inline-block;
     justify-content: center;
+    width: 100%;
+    height: auto;
 
-    background-color: mix(rgb(122, 122, 122), $background-color, 10%);
-    backdrop-filter: blur(10px);
-    width: 17em;
-    max-height: 150px;
-    text-align: center;
-    vertical-align: middle;
-
-    img {
-      margin: auto;
-      position: relative; //absolute;
-      object-fit: contain;
+    @media screen and (min-width: 600px) {
+    .archive__item-teaser_list {
+      position: relative;
+      border-radius: $border-radius;
       overflow: hidden;
+      margin-right: 0.5em;
+      display: inline;
       justify-content: center;
-      transition: all 0.3s linear; //hover 시간 조정
-    }
+      float : left;
+      margin-bottom: 5px;
 
-    @include breakpoint($small) {
-      min-height: 130px;
-      background-size: contain; //비율 강제 고정
-    }
+      background-color: mix(rgb(122, 122, 122), $background-color, 10%);
+      backdrop-filter: blur(10px);
+      width: 15em;
+      max-height: 130px;
+      text-align: center;
+      vertical-align: middle;
 
-    @include breakpoint($medium) {
-      background-size: contain; //비율 강제 고정
-    }
-  }
-
-  .archive__item-postbox {
-    display: inline-block;
-    padding-bottom: 0.25em;
-    clear: both;
-    width: auto;
-    vertical-align: middle;
-
-    h2 {
-        margin: 0 0 4px;
-        padding-top: 5px;
+      img {
+        margin: auto;
+        position: relative; //absolute;
+        object-fit: contain;
+        overflow: hidden;
+        justify-content: center;
+        transition: all 0.3s linear; //hover 시간 조정
       }
-  }
+
+      @include breakpoint($small) {
+        min-height: 130px;
+        background-size: contain; //비율 강제 고정
+      }
+
+      @include breakpoint($medium) {
+        background-size: contain; //비율 강제 고정
+      }
+    }
+    }
+    .archive__item-postbox {
+      display: inline;
+      padding-bottom: 0.25em;
+      //float : left;
+      clear: both;
+      width: auto;
+      vertical-align: middle;
+
+      h2 {
+          margin: 0 0 4px;
+          padding-top: 5px;
+        }
+    }
 }
 .archive__item-caption {
   position: relative;  //absolute;
