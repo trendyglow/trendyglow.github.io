@@ -1,7 +1,7 @@
 ---
-title: "ㅎ"
+title: "핫딜"
 layout: archive
-permalink: categories/data_structure
+permalink: categories/shopping
 author_profile: true
 sidebar_main: true
 ---
