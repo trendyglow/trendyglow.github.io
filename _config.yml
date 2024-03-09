@@ -17,10 +17,10 @@ minimal_mistakes_skin2    : "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "trendyglow Blog"
+title                    : "핫딜리뷰"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "trendyglow"
+name                     : "핫딜리뷰"
 description              : "Dev blog"
 url                      : "https://trendyglow.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "trendyglow"
+  name             : "핫딜리뷰"
   avatar           : "images/profile/Beeface.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Pain is temporary. <br>Quitting lasts forever."
+  bio              : "구매하기전 필수!! <br>상품의 특징과 장단점 사용방법을 알려드려요^^"
   location         : "Republic of Korea"
   email            :
   links:
