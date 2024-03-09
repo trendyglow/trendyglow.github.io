@@ -1,8 +1,11 @@
 # main links
 main:
   #- title: home
-  #  url: https://sun0te.github.io/
-
+  #  url: https://trendyglow.github.io/
+  - title: "알리익스프레스"
+    url: https://2944.kr/
+  - title: "유머사이트"
+    url: https://zzalsuny.ulog.kr/
   - title: "Posts"
     url: /year-archive/
   
