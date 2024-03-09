@@ -110,15 +110,15 @@ author:
   location         : "Republic of Korea"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jin1123a@gmail.com"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: "homoon84@gmail.com"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
-    #  url: "https://sun0te.github.io"
-    - label: "GitHub"
+    #  url: "https://trendyglow.github.io"
+    - label: "텔레그램"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sun0te/sun0te.github.io"
+      url: ""
 
 # Site Footer
 footer:
