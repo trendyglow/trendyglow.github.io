@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
+#DaumWebMasterTool:9948bcaf9eeb8d98335db5a36da77b77ea985ac2abae1afb5ec0bc47df109976:x52atMz1A7Xge6YjqbbCNw==
 Sitemap: https://trendyglow.o-r.kr/sitemap.xml
