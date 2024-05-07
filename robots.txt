@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sun0te.github.io//sitemap.xml
+Sitemap: https://trendyglow.o-r.kr/sitemap.xml
